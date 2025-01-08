@@ -1,6 +1,6 @@
-# Satpy
+# Satxpy
 
-The [satpy](satpy.py) module trivializes working with boolean expressions and SAT solvers.
+The [satxpy](satxpy.py) module trivializes working with boolean expressions and SAT solvers.
 
 ## Example
 
@@ -12,7 +12,7 @@ circuit that adds two binary numbers and produces a binary result.
 
 ```python
 from pysat.solvers import Glucose3
-from satpy import BooleanExpression, And, Or, Xor, assign
+from satxpy import BooleanExpression, And, Or, Xor, assign
 
 # Create an instance of the Glucose SAT solver.
 solver = Glucose3()
