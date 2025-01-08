@@ -1,6 +1,6 @@
 # Satxpy
 
-The [satxpy](satxpy.py) module trivializes working with boolean expressions and SAT solvers.
+The [satxpy](src/satxpy.py) module trivializes working with boolean expressions and SAT solvers.
 
 ## Example
 
@@ -186,7 +186,7 @@ The `Var` class overloads the following operator:
 
 **To Run Unit Tests and Generate Code Coverage Report:**
 ```bash
-coverage run -m unittest discover .
+coverage run -m unittest discover test
 coverage html
 google-chrome htmlcov/index.html
 ```

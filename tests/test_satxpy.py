@@ -4,7 +4,7 @@
 
 import unittest
 
-from ..src.satxpy import *
+from src.satxpy import *
 from pysat.solvers import Glucose3
 
 T = True
