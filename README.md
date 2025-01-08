@@ -2,6 +2,12 @@
 
 The [satxpy](src/satxpy.py) module trivializes working with boolean expressions and SAT solvers.
 
+## Installation
+
+```
+python3.10 -m pip install satxpy
+```
+
 ## Example
 
 In order to demonstrate ease of expressiveness, this example constructs
@@ -167,7 +173,7 @@ The output variable, `z`, can either be passed either implicitly or explicitly, 
 
 **Unnamed Boolean Functions:**
 
-Any unary, binary, or trinary boolean function can be generated using the `F` function, for example:
+Any unary, binary, or trinary boolean function can be generated using the `Fn` function, for example:
 + `Fn(1, x)` generates [BooleanFunction[1, 1]](https://www.wolframalpha.com/input?i=BooleanFunction%5B1%2C+1%5D) over the variable `x`.
 + `Fn(13, x, y)` generates [BooleanFunction[13, 2]](https://www.wolframalpha.com/input?i=BooleanFunction%5B13%2C+2%5D) over the variables `x` and `y`.
 + `Fn(17, x, y, z)` generates [BooleanFunction[17, 3]](https://www.wolframalpha.com/input?i=BooleanFunction%5B17%2C+3%5D) over the variables `x`, `y` and `z`.
